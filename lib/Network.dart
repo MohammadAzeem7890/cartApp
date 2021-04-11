@@ -6,7 +6,7 @@ class Network{
   List<Data> listOfData;
 
   // ignore: missing_return
-  Future<Products> getProducts()async{
+   getProducts()async{
     Dio dio = Dio();
     var response = await dio.get('http://165.227.69.207/rehmat-e-sheree/public/api/products/hashlob/web-data/products/get/all/auth');
     if(response.statusCode == 200){

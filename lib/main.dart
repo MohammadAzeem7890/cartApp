@@ -127,7 +127,7 @@ class Task1 extends StatelessWidget {
                                     )),
                                 InkWell(
                                     onTap: () {
-                                      snapshot.addToCart(index);
+                                      snapshot.addToCart(index);///
                                     },
                                     child: Icon(Icons.add)),
                               ],
